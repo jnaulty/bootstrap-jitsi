@@ -1,6 +1,7 @@
 # Hosting Jitsi on AWS using Terraform
 
-This is meant to serve as a starting point for those who want to host their own video call service using Jitsi on AWS
+Follow this guide for a working instance of Jitsi up and running in less than 30-minutes with the additional features of etherpad,
+live-streaming, and recording.
 
 ## Installation
 
@@ -11,6 +12,17 @@ This is meant to serve as a starting point for those who want to host their own 
 - AWS profile with the following policies: AmazonEC2FullAccess, AmazonVPCFullAccess, AmazonRoute53FullAccess
 - Domain Name already in [Route53](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-register.html)
 
+### Terraform
+
+The usual Terraform commands should get you a running EC2 Instance
+
+`terraform init`
+
+`terraform plan`
+
+`terraform apply`
+
+Then transfer the [jitsi-setup](./jitsi-setup) directory to the new EC2 Instance and begin installation and configuration.
 
 ## Resources
 
@@ -33,8 +45,9 @@ Google, it is desirable to be able to host a secure and stable video call servic
 Jitsi has all the necessary components to do this as well as documentation on getting setup.
 
 David Cruz's ["Zoom Sucks" List](https://gist.github.com/dacruz21/dd2480f195f5b48a9ab7af8b41c21404) lists a number of
-articles describing series of security setbacks repeated year-after-year by Zoom. There is no reason to support a
-company who's core principles do not have room for the security of the user.
+articles describing series of security setbacks repeated year-after-year by Zoom.
+
+There is no reason to support a company who's core principles do not have room for the security of the user.
 
 Schools, governments, and businesses, and various social groups are using Zoom. We should be helping them convert to
 more stable, open, and secure systems.
