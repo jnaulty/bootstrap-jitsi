@@ -1,7 +1,15 @@
 # Hosting Jitsi on AWS using Terraform
 
+Tired of the Zoom Bombing?
+
+Do you ever wonder if Zoom is hacking you? Or letting other people hack you?
+
+Well, now you don't have to care, because it's easy to get off of Zoom.
+
 Follow this guide for a working instance of Jitsi up and running in less than 30-minutes with the additional features of etherpad,
 live-streaming, and recording.
+
+If you want access to a demo, send me an e-mail and I can give you access to my jitsi instance [meet.dendritictech.com](https://meet.dendritictech.com)
 
 ## Installation
 
@@ -37,20 +45,18 @@ Then transfer the [jitsi-setup](./jitsi-setup) directory to the new EC2 Instance
 
 ## Inspiration
 
+COVID-19 has caused a lot of people to work remote and engage in social activities 'virtually'. It's caused an increase
+in video-conference usage, and people (like me) started reflecting on what tools were 'better' than others.
+
 ![image](https://user-images.githubusercontent.com/6826729/78512719-92fced00-775b-11ea-95a1-ad8029d9547e.png)
 
-Due to the terrible history of services like Zoom, and the lack of privacy on services like WhatsApp, Facebook, and
-Google, it is desirable to be able to host a secure and stable video call service.
+I prefer opensource services and tools for communications than proprietary alternatives. There's a lot of reasons for my preference. During this crisis, I would like to help people use more secure, open, and stable services. Jitsi is a great alternative to Zoom. 
 
-Jitsi has all the necessary components to do this as well as documentation on getting setup.
-
-David Cruz's ["Zoom Sucks" List](https://gist.github.com/dacruz21/dd2480f195f5b48a9ab7af8b41c21404) lists a number of
-articles describing series of security setbacks repeated year-after-year by Zoom.
+David Cruz's ["Zoom Sucks" List](https://gist.github.com/dacruz21/dd2480f195f5b48a9ab7af8b41c21404) is a great curation of Zoom's security fails over the past couple of years. If you are not familiar with the **Security Fails** of Zoom, please, peruse this list--especially the last few incidences. 
 
 There is no reason to support a company who's core principles do not have room for the security of the user.
 
-Schools, governments, and businesses, and various social groups are using Zoom. We should be helping them convert to
-more stable, open, and secure systems.
+Schools, governments, and businesses, and various social groups are using Zoom. We should be helping them convert to more stable, open, and secure systems.
 
-For anyone who wants assistance in setting up a jitsi-based system, please feel free to reach out.
+For anyone who wants assistance in setting up a jitsi-based system, please feel free to reach out, you can find various contact details at [dendritictech.com](https://dendritictech.com)
 
